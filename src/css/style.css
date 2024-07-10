@@ -1,0 +1,95 @@
+#header {
+    height: 80px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ajustes para o contêiner do formulário */
+.container-body {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.col-md-8 {
+    border: 0.5px solid lightgray;
+    /* Adicionando padding especificamente ao contêiner do formulário para mais espaço interno */
+    padding: 40px !important; /* Aumento do espaço interno */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+#cadeado{
+    font-size: 60px;
+}
+
+#txt-problema, #txt-email {
+    color: #333; /* Cor mais sólida para melhor leitura */
+    margin-bottom: 15px; /* Espaçamento para separar do conteúdo abaixo */
+}
+
+#txt-problema {
+    font-size: 24px; /* Tamanho maior para destaque */
+    font-weight: bold; /* Mais peso para importância */
+}
+
+#txt-email {
+    font-size: 14px;
+    color: gray; 
+}
+
+.bi-exclamation-octagon {
+    color: #dc3545; 
+    margin-bottom: 20px; 
+}
+
+#btn-enviar {
+    font-size: 18px;
+    border-radius: 5px; 
+}
+
+.logo {
+    height: 60px;
+    margin-right: 0;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.col-md-8 {
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    border-radius: 8px;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container, .col-md-8 {
+        width: 90%;
+        max-width: none;
+    }
+
+    .container-smartphone{
+        width: 90% !important;
+    }
+
+    .logo {
+        height: 60px;
+        margin: 0 auto;
+        display: block;
+    }
+}

